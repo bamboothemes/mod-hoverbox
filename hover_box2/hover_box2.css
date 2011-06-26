@@ -1,152 +1,0 @@
-.hb a {
-margin: 0;
-}
-/* left */
-.hb_left {position:relative; }
-.thumbs_left {width:180px; float:right;}
-.thumbs_left a {display:block; float:left; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_left a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_left a:hover {border-color:#ddd;}
-.thumbs_left a:hover img {position:absolute; width:auto; height:auto; right:185px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;}
-
-
-
-/* right */
-.hb_right {position:relative; }
-.thumbs_right {width:180px; float:left;}
-.thumbs_right a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_right a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_right a:hover {border-color:#ddd;}
-.thumbs_right a:hover img {position:absolute; width:auto; height:auto; left:200px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;}
-
-
-/* top */
-.hb_top {position:relative; }
-.thumbs_top {float:left;margin-top: 400px;}
-.thumbs_top a {display:block; float:left; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_top a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_top a:hover {border-color:#ddd;}
-.thumbs_top a:hover img {position:absolute; width:auto; height:auto; top:60px; left: 100px;border:1px solid #ccc;padding: 4px;background: #fefefe;}
-
-
-/* bottom */
-.hb_bottom {position:relative; }
-.thumbs_bottom {float:left;}
-.thumbs_bottom a {display:block; float:left; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_bottom a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_bottom a:hover {border-color:#ddd;}
-.thumbs_bottom a:hover img {position:absolute; width:auto; height:auto; top:0px; left: 50px;;border:1px solid #ccc;padding: 4px;background: #fefefe;}
-
-
-/* square_right */
-.hb_square_right {position:relative; }
-.thumbs_square_right {width:180px; float:left;}
-.thumbs_square_right a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_square_right a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_square_right a:hover {border-color:#ddd;}
-.thumbs_square_right a:hover img {position:absolute; width:auto; height:auto; left:200px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;width:200px;height:200px;}
-
-
-/* square_left */
-.hb_square_left {position:relative; }
-.thumbs_square_left {width:180px; float:right;}
-.thumbs_square_left a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_square_left a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_square_left a:hover {border-color:#ddd;}
-.thumbs_square_left a:hover img {position:absolute; width:auto; height:auto; right:200px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;width:200px;height:200px;}
-
-
-/* tall_left */
-.hb_s_left {position:relative; }
-.thumbs_tall_left {width:180px; float:right;}
-.thumbs_tall_left a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_tall_left a img {width:40px; height:60px; border:0;margin: 0;}
-.thumbs_tall_left a:hover {border-color:#ddd;}
-.thumbs_tall_left a:hover img {position:absolute; width:auto; height:auto; right:200px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;width:200px;height:300px;}
-
-
-/* tall_right */
-.hb_tall_right {position:relative; }
-.thumbs_tall_right {width:180px; float:left;}
-.thumbs_tall_right a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_tall_right a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_tall_right a:hover {border-color:#ddd;}
-.thumbs_tall_right a:hover img {position:absolute; width:auto; height:auto; left:200px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;width:200px;height:300px;}
-
-
-/* wide_left */
-.hb_wide_left {position:relative; }
-.thumbs_wide_left {width:180px; float:right;}
-.thumbs_wide_left a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_wide_left a img {width:60px; height:40px; border:0;margin: 0;}
-.thumbs_wide_left a:hover {border-color:#ddd;}
-.thumbs_wide_left a:hover img {position:absolute; width:auto; height:auto; right:190px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;width:300px;height:200px;}
-
-
-/* wide_right */
-.hb_wide_right {position:relative; }
-.thumbs_wide_right {width:180px; float:left;}
-.thumbs_wide_right a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_wide_right a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_wide_right a:hover {border-color:#ddd;}
-.thumbs_wide_right a:hover img {position:absolute; width:auto; height:auto; left:200px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;width:300px;height:200px;}
-
-/* small thumbs left */
-.hb_left {position:relative; }
-.thumbs_small_left {width:180px; float:right;}
-.thumbs_small_left a {display:block; float:left; margin:0 0 5px 5px; width:25px; height:25px; border:1px solid #ccc;}
-.thumbs_small_left a img {width:25px; height:25px; border:0;margin: 0;}
-.thumbs_small_left a:hover {border-color:#ddd;}
-.thumbs_small_left a:hover img {position:absolute; width:auto; height:auto; right:185px; top:0; border:1px solid #ccc;padding: 4px;background: #fefefe;}
-
-/* small thumbs right */
-.hb_small_right {position:relative; }
-.thumbs_small_right {width:180px; float:left;}
-.thumbs_small_right a {display:block; float:right; margin:0 0 5px 5px; width:25px; height:25px; border:none;}
-.thumbs_small_right a img {width:25px; height:25px; border:0;margin: 0;}
-.thumbs_small_right a:hover {border-color:#ddd;}
-.thumbs_small_right a:hover img {position:absolute; width:auto; height:auto; left:200px; top:0; border:0px solid #ccc;padding: 4px;background: #fefefe;}
-
-/* dark left */
-.hb_dark_left {position:relative; }
-.thumbs_dark_left {width:180px; float:right;}
-.thumbs_dark_left a {display:block; float:left; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_dark_left a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_dark_left a:hover {border-color:#000;}
-.thumbs_dark_left a:hover img {position:absolute; width:auto; height:auto; right:185px; top:0; border:1px solid #000;padding: 4px;background: #333;}
-
-/* dark right */
-.hb_dark_right {position:relative; }
-.thumbs_dark_right {width:180px; float:left;}
-.thumbs_dark_right a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_dark_right a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_dark_right a:hover {border-color:#000;}
-.thumbs_dark_right a:hover img {position:absolute; width:auto; height:auto; right:185px; top:0; border:1px solid #000;padding: 4px;background: #333;}
-
-
-/* Thumbnail Only */
-.hb_lightbox {position:relative; }
-.hb_lightbox a {
-margin: 0;padding: 0;
-}
-.thumbs_lightbox {width:180px; float:left;margin: 0;}
-.thumbs_lightbox a{display:block; float:left;  width:50px; height:50px;margin:0 5px 5px 0px;}
-.thumbs_lightbox a img {width:50px; height:50px; border:0;margin: 0;padding: 0;}
-
-
-/* Custom */
-.hb_custom {position:relative; }
-.thumbs_custom {float:left;}
-.thumbs_custom a {display:block; float:right; margin:0 0 5px 5px; width:50px; height:50px; border:1px solid #ccc;}
-.thumbs_custom a img {width:50px; height:50px; border:0;margin: 0;}
-.thumbs_custom a:hover {border-color:#000;}
-.thumbs_custom a:hover img {position:absolute; width:auto; height:auto; right:185px; top:0; border:1px solid #000;padding: 4px;background: #333;}
-
-/* Tooltips */
-.hb-tip {			color: #fff;			width: 123px;			z-index: 13000;		}		 .hb-title {
-	width: 123px;			font-weight: bold;			font-size: 11px;			margin: 0;			color: #9FD4FF;			padding: 8px 8px 4px;			background: url(bubble.png) top left;		}		 .hb-text {
-	width: 123px;			font-size: 11px;			padding: 4px 8px 8px;			background: url(bubble.png) bottom right;		}
-		
-		.thumbnoo {
-border: 2px solid #fff;
-}
