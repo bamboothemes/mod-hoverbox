@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="1.7.0" method="upgrade">
+<extension type="module" version="2.5" method="upgrade">
   <name>hoverBox</name>
   <author>Joomla Bamboo</author>
   <creationDate>Jan 2009</creationDate>
