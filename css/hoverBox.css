@@ -3,3 +3,6 @@
 .hoverBox a img { border:0;margin: 0;}
 .hoverBox a:hover {border-color:#ddd;}
 .hoverBox a:hover img {z-index: 100; width:auto; height:auto; ;padding: 2px;background: #fefefe;} 
+.hoverBox img{
+max-width:none
+}
