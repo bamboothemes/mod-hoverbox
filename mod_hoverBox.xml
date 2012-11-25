@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="1.6.0" method="upgrade">
+<extension type="module" version="2.5" method="upgrade">
   <name>hoverBox</name>
   <author>Joomla Bamboo</author>
   <creationDate>Jan 2009</creationDate>
   <copyright>Copyright (C) 2011 Joomla Bamboo. All rights reserved.</copyright>
   <authorEmail>design@joomlabamboo.com</authorEmail>
   <authorUrl>www.joomlabamboo.com</authorUrl>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>Hoverbox is a simple css based hover gallery combined with a prettyPhoto lightbox.</description>
   <files>
     <filename module="mod_hoverBox">mod_hoverBox.php</filename>
