@@ -10,6 +10,7 @@
 defined('_JEXEC') or die('Restricted access');
 // Include helper file
 require_once (dirname(__FILE__).DS.'helper.php');
+$mainframe = JFactory::getApplication();
 $document =& JFactory::getDocument();
 $library = JURI::base(true).'/media/plg_jblibrary/';
 $modbase = JURI::base(true).'/modules/mod_hoverBox/';

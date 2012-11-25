@@ -12,7 +12,7 @@ if($mainframe->getCfg('caching')) {	// prettyPhoto Styles ?>
 		<link rel="stylesheet" href="<?php echo $modbase ?>/css/hoverBox.css" type="text/css" />
 		
 		<style type="text/css">
-		.hoverBox<?php echo $id ?> {float: <?php echo $boxposition ?>;width:<?php echo $boxwidth  ?>}.hoverBox<?php echo $id ?> a img{margin-right:<?php echo $rightMargin ?>px;width: <?php echo $thumbWidth?>px;height:<?php echo $thumbHeight?>px}	.hoverBox<?php echo $id ?> a {width: <?php echo $thumbWidth ?>px;height:<?php echo $thumbHeight ?>px }  .hoverBox<?php echo $id ?>  a:hover img {margin-top:<?php echo $hoverTopOffset ?>px;margin-left:<?php echo $hoverLeftOffset ?>px}
+		.hoverBox<?php echo $id ?> {float: <?php echo $boxposition ?>;width:<?php echo $boxwidth  ?>}.hoverBox<?php echo $id ?>  a img{margin-right:<?php echo $rightMargin ?>px;width: <?php echo $thumbWidth?>px;height:<?php echo $thumbHeight?>px}	.hoverBox<?php echo $id ?> a {width: <?php echo $thumbWidth ?>px;height:<?php echo $thumbHeight ?>px }  .hoverBox<?php echo $id ?>  a:hover img {margin-top:<?php echo $hoverTopOffset ?>px;margin-left:<?php echo $hoverLeftOffset ?>px}
 		</style>
 <?php }
  if($mainframe->getCfg('caching') && ($prettyPhoto)) {	// prettyPhoto Styles ?>
